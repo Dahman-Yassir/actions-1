@@ -2,7 +2,7 @@ name: yassir and younes workflow
 on: push
 jobs:
     first_job:
-        runs-on: ubuntu_latest
+        runs-on: ubuntu-latest
         steps:
             - name: welcome younes and yassir
               run: echo " hello younes and yassir your welcomed to come to this fiesta"
