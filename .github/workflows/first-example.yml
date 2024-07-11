@@ -11,6 +11,5 @@ jobs:
                    echo "bonjour les oiseaux"                
                    ls -ltra
                    cat README.md
-            - name: generating ascci message
-              run: cowsay -f dragon "run for cover , i'am a super powerful dragon">> dragon.txt
+           
         
