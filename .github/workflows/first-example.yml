@@ -6,7 +6,11 @@ jobs:
         steps:
             - name: welcome younes and yassir
               uses: actions/checkout@v4
-            - name: list files
-              run: ls
-            - name: Read file
-              run: cat README.md   
+            - name: multile line commands
+              run: |
+                   echo "bonjour les oiseaux"                
+                   ls -ltra
+                   cat README.md
+            - name: generating ascci message
+              run: cowsay -f dragon "run for cover , i'am a super powerful dragon">> dragon.txt
+        
