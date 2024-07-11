@@ -1,7 +1,7 @@
 name: yassir and younes workflow
 on: push
 jobs:
-    first_job:
+    ascci-job:
         runs-on: ubuntu-latest
         steps:
             - name: welcome younes and yassir
