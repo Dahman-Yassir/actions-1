@@ -1,10 +1,10 @@
-name: yassir and younes workflow
+name: ascci job
 on: push
 jobs:
     ascci-job:
         runs-on: ubuntu-latest
         steps:
-            - name: welcome younes and yassir
+            - name: ascci job
               uses: actions/checkout@v4
             - name: install cowsay program
               run: sudo apt-get install cowsay -y
