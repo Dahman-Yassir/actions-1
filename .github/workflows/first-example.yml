@@ -5,7 +5,7 @@ jobs:
         runs-on: ubuntu-latest
         steps:
             - name: welcome younes and yassir
-              run: echo " hello younes and yassir your welcomed to come to this fiesta"
+              uses: actions/checkout@v4
             - name: list files
               run: ls
             - name: Read file
