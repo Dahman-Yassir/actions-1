@@ -1,4 +1,4 @@
-name: ascci job
+name: asccggi job
 on: push
 jobs:
     ascci-job:
