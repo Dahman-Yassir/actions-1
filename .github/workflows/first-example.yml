@@ -1,0 +1,12 @@
+name: yassir and younes workflow
+on: push
+jobs:
+    first_job:
+        runs-on: ubuntu_latest
+        steps:
+            - name: welcome younes and yassir
+              run: echo " hello younes and yassir your welcomed to come to this fiesta"
+            - name: list files
+              run: ls
+            - name: Read file
+              run: cat README.md   
